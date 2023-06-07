@@ -1,0 +1,17 @@
+<html>
+<head>
+    <title>Exemplo React</title>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://unpkg.com/react/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+        //Código JSX para criar o elemento
+        const elemento = <h1>Hello JSX com React</h1>;
+        //Código React para anexar o elemento à página
+        ReactDOM.createRoot(document.querySelector('#root')).render(elemento);       
+    </script>
+</body>
+</html>
