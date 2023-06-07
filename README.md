@@ -1,1 +1,1 @@
-# Repositório da disciplina de Programação Web
+# Disciplina de Programação Web
