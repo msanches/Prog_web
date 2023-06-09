@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exemplo Estrutura for</title>
+</head>
+
+<body>
+<script>
+    /*
+    for (valor inicial; condição; incremento/decremento){
+        //instruções que serão repetidas
+    }*/
+    let num = parseInt(prompt("Digite um número inteiro", ""));
+    document.write(`<h3>Tabuada do ${num}</h3>`)
+    for (let cont = 0; cont < 11; cont++) {
+        //alert("Número: " + cont + "<br />");
+        document.write(`${num} * ${cont} = ${num*cont} <br>`);
+    }
+</script>
+</body>

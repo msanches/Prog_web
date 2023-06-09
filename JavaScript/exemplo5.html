@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        let x = 42; // x é do tipo numérico (int)
+        x = "bar"; // x agora é um texto (string)
+        x = true; // x agora é um valor lógico (booleano)
+        let framework = 'Vue.js';
+        let framework = 'Angular'; //ocorre um erro! apague o let para ver o resultado
+        alert(framework);
+
+        // Utilização de uma constante
+        const pi = 3.14;
+        pi = 3.14; // provocará erro! apague esta linha para ver o resultado
+        pi = 2 * pi;// também errado! apague esta linha para ver o resultado
+        
+        // permitido porque ang é uma variável 
+        let ang = 2 * pi;
+        let x = 10; //ocorre um erro! apague esta linha para ver o resultado
+        let y = x;
+        x = 15;
+        let soma = x + y;
+        document.write(`a soma é ${soma}`)
+    </script>
+</body>
+
+</html>
