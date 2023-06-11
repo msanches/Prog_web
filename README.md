@@ -8,8 +8,8 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width= 100px/>
 
 ## Conteúdos de aula:
-* **[JavaScript:](https://github.com/msanches/ProgComp/tree/main/JavaScript)** JavaScript
-* **[React:](https://github.com/msanches/ProgComp/tree/main/React)** React
+* **[JavaScript:](https://github.com/msanches/Prog_web/tree/main/JavaScript)** JavaScript
+* **[React:](https://github.com/msanches/Prog_web/tree/main/React)** React
 <!--
 https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open
 https://support.zendesk.com/hc/pt-br/articles/4408846544922-Formata%C3%A7%C3%A3o-de-texto-com-Markdown
