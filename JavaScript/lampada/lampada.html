@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+        .conteudo{
+            font-family: 'Indie Flower', cursive;
+            border: 1px solid darkred;
+            width: 400px;
+            margin: auto;
+            text-align: center;
+            padding: 20px;
+        }
+        .conteudo h1{
+            font-size: 40px;
+        }
+        .conteudo button{
+            font-family: 'Kalam', cursive;
+            background-color: rgb(32, 32, 54);
+            color:white;
+            width: 100px;
+            padding: 10px;
+            font-size: 20px;
+        }
+        .desliga button{
+
+            background-color: azure;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteudo">
+
+        <h1>Lâmpada mágica</h1>
+        <p>
+            <img id="lampada" src="img/pic_bulboff.gif" alt="">
+        </p>
+        <button onclick="ligar()">Ligar</button>
+        <button onclick="desligar()">Desligar</button>
+    </div>
+    <script>
+        //let elem = document.getElementById("lampada");
+        let elem = document.querySelector("#lampada")
+        function ligar(){
+            elem.src = "img/pic_bulbon.gif";
+
+        }
+        function desligar(){
+            elem.src = "img/pic_bulboff.gif";
+        }
+    </script>
+</body>
+</html>
