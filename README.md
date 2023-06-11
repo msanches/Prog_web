@@ -22,8 +22,8 @@ https://support.zendesk.com/hc/pt-br/articles/4408846544922-Formata%C3%A7%C3%A3o
 Professor Marco Antonio
 
 ## Conteúdos de aula:
-* **[JavaScript:](https://github.com/msanches/ProgComp/tree/main/JavaScript)** JavaScript
-* **[React:](https://github.com/msanches/ProgComp/tree/main/React)** React
+* **[JavaScript:](https://github.com/msanches/Prog_web/tree/main/JavaScript)** JavaScript
+* **[React:](https://github.com/msanches/Prog_web/tree/main/React)** React
 
 Professor Marco Antonio
 -->
