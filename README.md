@@ -10,6 +10,7 @@
 ## Conteúdos de aula:
 * **[JavaScript:](https://github.com/msanches/Prog_web/tree/main/JavaScript)** JavaScript
 * **[React:](https://github.com/msanches/Prog_web/tree/main/React)** React
+* **[To Do List:](https://github.com/msanches/Prog_web/tree/main/ToDoList)** Lista de tarefas
 <!--
 https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open
 https://support.zendesk.com/hc/pt-br/articles/4408846544922-Formata%C3%A7%C3%A3o-de-texto-com-Markdown
@@ -23,7 +24,6 @@ Professor Marco Antonio
 
 ## Conteúdos de aula:
 * **[JavaScript:](https://github.com/msanches/Prog_web/tree/main/JavaScript)** JavaScript
-* **[React:](https://github.com/msanches/Prog_web/tree/main/React)** React
 * **[React:](https://github.com/msanches/Prog_web/tree/main/React)** React
 * **[To Do List:](https://github.com/msanches/Prog_web/tree/main/ToDoList)** To Do List
 
