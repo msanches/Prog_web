@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Exemplo uso do continue</title>
+</head>
+<body>
+    <script>
+        let html = 'Ímpares entre 0 e 10';
+        for (let i = 0; i < 10; i++) { 
+            if (i % 2 == 0) 
+                continue; 
+            html += '\n' + i;
+        }
+        alert(html); // imprime somente os ímpares de 0 a 10
+    </script>
+</body>
+</html>

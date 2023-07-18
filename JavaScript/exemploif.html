@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exemplo Condicional if</title>
+</head>
+<body>
+    <script>
+        /*
+        if (condição){
+            //bloco de instruções caso a condição seja verdadeira
+        }
+        */
+        let data_hora = new Date();
+        let hora = data_hora.getHours();
+        if (hora < 12){		
+            alert("Bom dia!!!");
+        }
+        else {
+            if(hora >= 12 && hora < 18){
+                alert("Tenha uma ótima tarde");
+            }
+            else {
+                alert("Tenha uma ótima noite");
+            }
+        }
+    </script>
+</body>

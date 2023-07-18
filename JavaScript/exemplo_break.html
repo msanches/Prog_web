@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Exemplo uso do break</title>
+</head>
+<body>
+    <script>
+        let soma = 0; 
+        while (true){
+            let num = Number(prompt("Digite um número:", '')); 
+            if (!num) 
+                break;  
+            soma += num; 
+        } 
+        alert(`A soma dos números é ${soma}`);
+        </script>
+</body>
+</html>

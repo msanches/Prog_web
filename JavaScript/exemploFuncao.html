@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exemplo funções</title>
+</head>
+<body>
+    <script>
+       /* let identificador = (param1, param2) => {  
+            //bloco de instruções
+        }*/
+
+        //Exemplo de uma função que subrai dois números
+        function subtracao(num1, num2){
+            return num1 - num2;
+        }
+        //Exemplo de arrow function que soma dois números
+        let soma = (num1, num2) => { return num1 + num2 };
+
+        //Implentação das funções
+        let n1 = parseInt(prompt("Digite o primeiro número: "))
+        let n2 = parseInt(prompt("Digite o segundo número: "))
+        alert(`${n1} + ${n2} = ${soma(n1,n2)}`)
+        alert(`${n1} - ${n2} = ${subtracao(n1,n2)}`)
+    </script>        
+</body>
+</html>

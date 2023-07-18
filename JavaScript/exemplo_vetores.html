@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exemplo vetores</title>
+</head>
+
+<body>
+    <script>
+        let carros = ["Honda", "Fiat", "Hundai"];
+        carros[2] = "Hyundai"; //Substitui o valor do elemento na posição 2
+
+        let c = prompt("Digite um fabricante: ");
+        carros.push(c); //Adiciona um novo elemento ao final do vetor
+
+        //A propriedade lenght retorna o tamanho do vetor
+        alert(`Quantidade de marcas: ${carros.length}`)
+
+        //Percorrendo o vetor com a estrutura for
+        document.write(`<b>Percorrendo o vetor com a estrutura for</b><br>`)
+        for (let i=0; i<carros.length; i++) {
+            document.write(carros[i] + "<br>");
+        }
+
+        //forEach também percorre o vetor
+        document.write(`<b>Percorrendo o vetor com forEach</b><br>`)
+        carros.forEach(carro => {
+            document.write(carro + "<br>");
+        })
+
+        //forEach também percorre o vetor
+        document.write(`<b>Percorrendo o vetor com forEach</b><br>`)
+        carros.forEach((carro, index) => {
+            document.write(`[${index}]- ${carro} <br>`);
+        })
+
+        //for...of também percorre o vetor
+        document.write(`<b>Percorrendo o vetor com for...of</b><br>`)
+        for(let carro of carros){
+            document.write(`${carro} <br>`);
+        }
+
+        //for...of também percorre o vetor
+        document.write(`<b>Percorrendo o vetor com for...of</b><br>`)
+        for(let [index, carro] of carros.entries()){
+            document.write(`[${index}]- ${carro} <br>`);
+        }
+
+    </script>
+</body>
+
+</html>
