@@ -17,11 +17,23 @@ btn.addEventListener("click", function(){
     }
 
     const close = document.querySelectorAll(".close");
-    for(let i=0; i<close.length; i++){
+    for(const el of close){
+        el.addEventListener("click", function(e){
+            e.target.parentElement.remove();
+        });
+    }
+
+    /*for(let i=0; i<close.length; i++){
         close[i].addEventListener("click", function(e){
             e.target.parentElement.remove();
         });
     }
+
+    close.forEach(el =>{
+        el.addEventListener("click", function(e){
+            e.target.parentElement.remove();
+        });
+    })*/
 
     lista.addEventListener("click", function(e){
         e.target.parentElement.querySelector(".check").style.color = "#349223";
