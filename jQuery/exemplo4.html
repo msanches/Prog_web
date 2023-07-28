@@ -1,0 +1,29 @@
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#b1").click(function(){
+                $("[type='text']").val("Inserindo um valor novo");
+                $("[type='text']").before("- antes -");
+                $("[type='text']").after("- depois -");
+                $("#d1").prepend(" Aprendendo ");
+                $("#d1").append(" jQuery ");
+                $("#d2").html("Programação Web");
+
+            })
+        });
+    </script>
+    <style>
+        div{border: 1px solid saddlebrown;}
+    </style>
+</head>
+<body>
+    <div id="d1">Aprendendo jQuery</div>
+    <br>
+    <input type="text" value="valor inicial">
+    <input id="b1" type="button" value="Clique aqui">
+    <br><br>
+    <div id="d2">Praticando jQuery</div>
+</body>
+</html>

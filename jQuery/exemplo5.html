@@ -1,0 +1,20 @@
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+    <script>
+        $(document).ready(function () {
+            let valor = $("p").css("background-color");
+            $("button").click(function () {
+                alert("Background-color=" + valor);
+            });
+        });
+    </script>
+    <style>
+        p {background-color: blueviolet; color: white; padding: 10px;}
+    </style>
+</head>
+<body>
+    <p>Clique no botão para revelar a cor de fundo.</p>
+    <button>Clique aqui</button>
+</body>
+</html>

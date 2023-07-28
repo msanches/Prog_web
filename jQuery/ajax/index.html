@@ -1,0 +1,19 @@
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+    <script>
+        $(function(){
+          $("button").click(function(){
+            $.get({url: "dados.txt", success: function(result){
+              $("#p1").html(result);
+            }});
+          });
+        });
+    </script>
+</head>
+<body>
+    <h2>AJAX com jQuery</h2>
+    <p id="p1">Clique no botão para alterar o conteúdo deste parágrafo</p>
+    <button>Clique</button>
+</body>
+</html>

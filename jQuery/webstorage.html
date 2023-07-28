@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <p id="result"></p>
+    <script>
+        if (typeof (Storage) !== "undefined") {
+            alert("Seu navegador possui suporte ao WebStorage!")
+            // Store
+            localStorage.nome = "Marco";
+            // Retrieve
+            document.getElementById("result").innerHTML = localStorage.nome;
+        } else {
+            alert("Desculpe, mas seu navegador não possui suporte!")
+        }
+    </script>
+</body>
+</html>

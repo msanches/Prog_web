@@ -1,0 +1,24 @@
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+</head>
+<body>
+    <h2>Repositórios do github</h2>
+    <p>Neste exemplo, utilizamos o Fetch para listar os repositórios de um usuário do github</p>
+    <ul></ul>
+    <script>
+        //exemplo sem o uso do map
+        const url = 'https://api.github.com/users/msanches/repos';
+        fetch(url)
+            .then(response => response.json())
+            .then(data => {
+                //const reposList = data.map(repos => repos.name);
+                data.forEach(element => {
+                    $("ul").append("<li>" + element.name + "</li>");
+                });
+                console.log(reposList);
+            })
+            .catch(err => console.log(err))
+    </script>
+</body>
+</html>
