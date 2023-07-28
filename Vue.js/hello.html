@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Meu primeiro app Vue</title>
+  <script src="https://unpkg.com/vue@3"></script>
+</head>
+<body>
+  <div id="app">
+    <p>{{ message }}</p>
+    <input v-model="message" />
+  </div>
+  <script>
+    const app = Vue.createApp({
+      data() {
+        return {
+        message: 'Hello World, Vue.js!'
+      }}
+    })
+    app.mount('#app')
+  </script>
+</body>
+</html>

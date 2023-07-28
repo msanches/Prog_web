@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Meu primeiro app Vue</title>
+  <script src="https://unpkg.com/vue@3"></script>
+</head>
+<body>
+    <ul id="app">
+        <li v-for="(nome, index) in nomes">
+          {{ index }} - {{ nome }}
+        </li>
+      </ul>
+  <script>
+    const app = Vue.createApp({
+      data() {
+        return {
+          nomes: ['Marco', 'Mariana', 'Ana', 'Alexandre', 'Suzana']
+      }}
+    })
+    app.mount('#app')
+  </script>
+</body>
+</html>

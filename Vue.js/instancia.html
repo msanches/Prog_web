@@ -1,0 +1,33 @@
+<html>
+<head>
+    <script src="https://unpkg.com/vue@3"></script>
+</head>
+
+<body>
+    <div id="app">
+        <p>{{ message }}</p>
+    </div>
+<script>
+    const app = Vue.createApp({
+        data() {
+            return {
+                message: 'Olá mundo Vue.js!'
+            }
+        },
+        created() {
+            console.log('Instância criada')
+        },
+        mounted() {
+            console.log('Instância montada')
+        },
+        updated() {
+            console.log('Instância atualizada')
+        },
+        unmounted() {
+            console.log('Instância desmontada')
+        }
+    })
+    app.mount('#app')
+</script>
+</body>
+</html>

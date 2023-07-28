@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Meu primeiro app Vue</title>
+  <script src="https://unpkg.com/vue@3"></script>
+</head>
+<body>
+  <div id="app">
+    <h1>{{ titulo }}</h1>
+    <p v-if="mostrarImagem">
+        <img v-bind:src="imagemUrl" alt="Imagem">
+    </p>
+    <p>Clique no botão para ocultar / exibir a imagem</p>
+    <button v-on:click="alternarImagem">Clique-me</button>
+  </div>
+<script>
+    const app = Vue.createApp({
+      data() {
+        return {
+            titulo: 'Página web dinâmica',
+            imagemUrl: 'https://files.readme.io/86176b7-vuejs.png', 
+            mostrarImagem: true
+      }},
+      methods: {
+        alternarImagem() {
+        this.mostrarImagem = !this.mostrarImagem;
+        }}
+    })
+    app.mount('#app')
+</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<html>
+<head>
+  <script src="https://unpkg.com/vue@3"></script>
+</head>
+<body>
+  <div id="app">
+     <p v-show="mostrarMsg"> {{ message }} </p>
+     <button v-on:click="mostrarMsg = !mostrarMsg">Alterar exibição</button>
+  </div>
+<script>
+    const app = Vue.createApp({
+      data() {
+        return {
+            message: "Esta mensagem será ocultada / exibida",
+            mostrarMsg: true
+      }}
+    })
+    app.mount('#app')
+</script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Meu primeiro app Vue</title>
+  <script src="https://unpkg.com/vue@3"></script>
+</head>
+<body>
+  <div id="app">
+    <p>{{ message }}</p>
+    <input v-model="message" />
+
+    <p v-if="mostrarImagem">
+        <img v-bind:src="imagemUrl" alt="Imagem">
+    </p>
+    <button v-on:click="alternarImagem">Alternar Imagem</button>
+  </div>
+  <script>
+    const app = Vue.createApp({
+      data() {
+        return {
+            message: 'Hello Worls, Vue.js!',
+            imagemUrl: 'https://files.readme.io/86176b7-vuejs.png', 
+            mostrarImagem: true
+      }},
+      methods: {
+        alternarImagem() {
+        this.mostrarImagem = !this.mostrarImagem;
+        }}
+    })
+    app.mount('#app')
+  </script>
+</body>
+</html>

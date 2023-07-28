@@ -1,0 +1,28 @@
+<html>
+<head>
+  <script src="https://unpkg.com/vue@3"></script>
+</head>
+<body>
+  <div id="app">
+     <h1>{{ titulo }}</h1>
+     <carros-list
+         v-for="carro in carros"
+         v-bind:carro = "carro"
+      ></carros-lista>
+  </div>
+<script>
+    const app = Vue.createApp({
+      data() {
+        return {
+            titulo: "Utilizando componentes",
+            carros: ['Fusca', 'Kombi', 'Brasilia', 'Uno', 'Opala']
+      }}
+    })
+    app.component('carros-list', {
+        props: ['carro'],
+        template: '<li>{{ carro }}</li>'
+    })
+    app.mount('#app')
+</script>
+</body>
+</html>
