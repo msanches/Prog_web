@@ -1,0 +1,39 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Primeiros passos com React.js</title>
+    <script src="https://unpkg.com/@babel/standalone/babel.js"></script>
+    <script src="https://unpkg.com/react/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+    <style>
+        .hello {
+            color: #c05959;
+            font-size: 1.5em;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+        function Welcome(props) {
+            const element = (
+                <div>
+                    <h1 className="hello"> JSX com React </h1>
+                    <p>Olá mundo, {props.name}</p>
+                </div>
+            )
+            return element;
+        }
+        function Button(props) {
+            return <button onClick={props.onClick}>{props.label}</button>;
+        }
+        const root = ReactDOM.createRoot(document.querySelector('#root'));
+        root.render(<div>
+                        <Welcome name="JSX" />
+                        <Button label="Clique aqui" onClick={() => alert('Clicou no botão')} />
+                    </div>
+        );
+    </script>
+</body>
+</html>

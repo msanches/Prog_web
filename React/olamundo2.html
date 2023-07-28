@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <title>Exemplo React</title>
+    <script src="https://unpkg.com/react/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script>
+        class HelloMessage extends React.Component {
+            render() {
+                return React.createElement(
+                    "div",
+                    null,
+                    `Hello ${this.props.name}`
+                );
+            }
+        }
+        const root = ReactDOM.createRoot(document.querySelector("#root"));
+        root.render(React.createElement(HelloMessage, { name: "Taylor" }));
+    </script>
+</body>
+
+</html>

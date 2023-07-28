@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Primeiros passos com React.js</title>
+    <script src="https://unpkg.com/@babel/standalone/babel.js"></script>
+    <script src="https://unpkg.com/react/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+    <style>
+        .hello {
+            color: #c05959;
+            font-size: 1.5em;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+        class Carro extends React.Component {
+            constructor(props) {
+                super(props);
+            }
+            render() {
+                return <h2>Eu comprei um {this.props.model} {this.props.color}!</h2>;
+            }
+        }
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(<Carro model="Mustang" color= "azul" />);
+    </script>
+</body>
+
+</html>

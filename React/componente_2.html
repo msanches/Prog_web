@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>Exemplo React</title>
+    <script src="https://unpkg.com/react/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script>
+        const { useState, createElement } = React;
+        function App(props) {
+            const h1 = createElement("h1", null, "Componentes React");
+            const p = createElement("p", null, `Olá Mundo, ${props.name}`);
+            const btn = createElement("button", { onClick: () => alert("Olá mundo")}, "Clique aqui");
+            return createElement("header", null, h1, p, btn);
+        }
+
+        const root = ReactDOM.createRoot(document.querySelector("#root"));
+        root.render(createElement(App, {name : "Marco"}));
+    </script>
+</body>
+
+</html>

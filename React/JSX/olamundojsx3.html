@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title> JSX React</title>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <style>
+        .hello{
+            color: #c05959;
+            font-size: 2em;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+        const root = ReactDOM.createRoot(document.querySelector('#root'));
+        const element = <h1 className = "hello" >Hello, world</h1>;
+        root.render(element);
+    </script>
+</body>
+</html>

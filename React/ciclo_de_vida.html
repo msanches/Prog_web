@@ -1,0 +1,39 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Exemplo React com Hooks</title>
+    <script src="https://unpkg.com/react/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+        const { useState } = React;
+        function ExemploCicloDeVida() {
+            const [contador, setContador] = useState(0);
+            console.log('Renderização');
+            React.useEffect(() => {
+                console.log('Componente foi montado');
+                return () => console.log('Componente será desmontado');
+            }, []);
+            React.useEffect(() => {
+                console.log('Componente foi atualizado');
+                console.log('Estado atual:', contador);
+            }, [contador]);
+            const incrementar = () => {
+                setContador(contador + 1);
+            };
+            return (
+                <div>
+                    <h1>Contador: {contador}</h1>
+                    <button onClick={incrementar}>Incrementar</button>
+                </div>
+            );
+        }
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(<ExemploCicloDeVida />);
+    </script>
+</body>
+</html>

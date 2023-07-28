@@ -1,0 +1,16 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Primeiros passos com React.js</title>
+    <script src="https://unpkg.com/react/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <script>
+        const root = ReactDOM.createRoot(document.querySelector('#root'));
+        const element = React.createElement;
+        root.render(element('h1', null, 'Olá, bem-vindo ao mundo React!!!'));
+    </script>
+</body>
+</html>

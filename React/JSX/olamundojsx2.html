@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Exemplo de JSX</title>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+        // Importando o React e o ReactDOM
+        const { useState, createElement } = React;
+
+        // Definindo o componente HelloWorld
+        function HelloWorld(props) {
+            // Criando uma variável de estado com o hook useState
+            const [name, setName] = useState(props.name);
+
+            // Renderizando o componente com o JSX
+            return (
+                <div>
+                    <h1>Hello, {name}!</h1>
+                    <input
+                        type="text"
+                        value={name}
+                        onChange={(event) => setName(event.target.value)}
+                    />
+                </div>
+            );
+        }
+
+        const root = ReactDOM.createRoot(document.querySelector("#root"));
+        root.render(createElement(HelloWorld, { name: "Marco" }));
+    </script>
+</body>
+
+</html>
