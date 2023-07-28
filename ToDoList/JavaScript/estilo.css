@@ -38,6 +38,7 @@ header span{
 }
 
 ul {margin: 0; padding: 0;}
+
 ul li{
     cursor: pointer;
     padding: 10px 0px;
