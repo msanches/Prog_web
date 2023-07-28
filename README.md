@@ -5,7 +5,9 @@
 
 #### Repositório de exemplos e exercícios da disciplina de Programação Web
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width= 100px/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width= 100px/>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original-wordmark.svg" width= 100px/>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original-wordmark.svg" width= 100px/>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" width= 100px/>
+          
+                    
 
 ## Conteúdos de aula:
 * **[JavaScript:](https://github.com/msanches/Prog_web/tree/main/JavaScript)** JavaScript
