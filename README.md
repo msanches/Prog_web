@@ -3,7 +3,7 @@
 [![Stars](https://img.shields.io/github/stars/msanches/Prog_web?style=flat-square)](https://github.com/msanches/Prog_web/stargazers)
 [![Fork](https://img.shields.io/github/forks/msanches/Prog_web?style=flat-square)](https://github.com/msanches/Prog_web/fork)
 
-#### Repositório de exemplos e exercícios da disciplina de Programação Web
+#### Repositório de exemplos da disciplina de Programação Web
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width= 100px/>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original-wordmark.svg" width= 100px/>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original-wordmark.svg" width= 100px/>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" width= 100px/>
           
