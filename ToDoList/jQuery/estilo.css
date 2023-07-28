@@ -6,33 +6,33 @@ body{
 * { box-sizing: border-box;}
 
 header{
-    background-color: #a35858;
+    background-color:#a35858;
     color: #fff;
-    text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 30px;
+    padding: 20px;
 }
 
 header h1{
     font-size: 40px;
     width: 100%;
+    text-align: center;
 }
 
-input{
+header input{
     font-size: 18px;
-    margin: 0;
     border: none;
+    margin: 0;
     border-radius: 10px;
     width: 60%;
     padding: 10px;
 }
 
 header span{
-    padding: 0px 0px 0px 30px;
+    padding-left: 20px;
     width: 10%;
-    color: #dbd9d9;
+    /*color: #fff;*/
     cursor: pointer;
     font-size: 35px;
 }
@@ -54,3 +54,6 @@ ul li:hover{background-color: #ddd;}
 ul li span{width: 80%;}
 ul li i{width: 10%; text-align: center;}
 .close{color: #f03333;}
+
+ul li.checked {text-decoration: line-through;}
+ul li i.checked{color: green;}
