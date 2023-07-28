@@ -9,7 +9,7 @@ btn.addEventListener("click", function(){
         lista.innerHTML += (
             `<li>
                 <i class="fas fa-check-circle check"></i>
-                <span>${tarefa.value}</span>
+                <span>${ tarefa.value }</span>
                 <i class="fa-solid fa-trash-can close"></i>
             </li>`
         );
