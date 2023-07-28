@@ -9,6 +9,8 @@
 
 ## Conteúdos de aula:
 * **[JavaScript:](https://github.com/msanches/Prog_web/tree/main/JavaScript)** JavaScript
+* **[jQuery:](https://github.com/msanches/Prog_web/tree/main/jQuery)** React
+* **[Vue.js:](https://github.com/msanches/Prog_web/tree/main/React)** React
 * **[React:](https://github.com/msanches/Prog_web/tree/main/React)** React
 * **[To Do List:](https://github.com/msanches/Prog_web/tree/main/ToDoList)** Lista de tarefas
 
