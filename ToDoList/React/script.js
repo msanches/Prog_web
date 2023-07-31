@@ -37,7 +37,7 @@ class TarefaApp extends Component{
         <div>
           <header className="header">
               <h1>Lista de tarefas</h1>           
-              <input onChange={this.handleChange} value={item}/>            
+              <input onChange={this.handleChange} value={item} placeholder="Digite a sua tarefa..."/>            
               <span onClick={this.add}><i className="fas fa-plus-circle" ></i></span>                      
           </header>
           <ul>
