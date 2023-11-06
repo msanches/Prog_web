@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="22px" viewBox="0 0 32 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>HON</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HON" fill-rule="nonzero">
+            <rect id="Rectangle" fill="#0073CF" x="0" y="0" width="32" height="22"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="0" y="7.33333333" width="32" height="7.33333333"></rect>
+            <g id="star" transform="translate(13.333333, 8.555556)" fill="#0073CF">
+                <g id="cone" transform="translate(1.777778, 0.000000)">
+                    <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                    <g id="use12" transform="translate(0.888889, 1.833333) scale(-1, 1) translate(-0.888889, -1.833333) ">
+                        <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                    </g>
+                </g>
+                <g id="use14" transform="translate(3.089358, 2.255601) rotate(72.000000) translate(-3.089358, -2.255601) translate(2.200470, 0.422267)">
+                    <g id="cone">
+                        <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                        <g id="use12" transform="translate(0.888889, 1.833333) scale(-1, 1) translate(-0.888889, -1.833333) ">
+                            <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                        </g>
+                    </g>
+                </g>
+                <g id="use16" transform="translate(2.243975, 2.255601) rotate(-72.000000) translate(-2.243975, -2.255601) translate(1.355086, 0.422267)">
+                    <g id="cone">
+                        <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                        <g id="use12" transform="translate(0.888889, 1.833333) scale(-1, 1) translate(-0.888889, -1.833333) ">
+                            <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                        </g>
+                    </g>
+                </g>
+                <g id="use18" transform="translate(2.927905, 2.938844) rotate(144.000000) translate(-2.927905, -2.938844) translate(2.039016, 1.105510)">
+                    <g id="cone">
+                        <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                        <g id="use12" transform="translate(0.888889, 1.833333) scale(-1, 1) translate(-0.888889, -1.833333) ">
+                            <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                        </g>
+                    </g>
+                </g>
+                <g id="use20" transform="translate(2.405429, 2.938844) rotate(-144.000000) translate(-2.405429, -2.938844) translate(1.516540, 1.105510)">
+                    <g id="cone">
+                        <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                        <g id="use12" transform="translate(0.888889, 1.833333) scale(-1, 1) translate(-0.888889, -1.833333) ">
+                            <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="star-link" transform="translate(17.777778, 6.600000)" fill="#0073CF">
+                <g id="star">
+                    <g id="cone" transform="translate(1.777778, 0.000000)">
+                        <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                        <g id="use12" transform="translate(0.888889, 1.833333) scale(-1, 1) translate(-0.888889, -1.833333) ">
+                            <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                        </g>
+                    </g>
+                    <g id="use14" transform="translate(3.089358, 2.255601) rotate(72.000000) translate(-3.089358, -2.255601) translate(2.200470, 0.422267)">
+                        <g id="cone">
+                            <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                            <g id="use12" transform="translate(0.888889, 1.833333) scale(-1, 1) translate(-0.888889, -1.833333) ">
+                                <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="use16" transform="translate(2.243975, 2.255601) rotate(-72.000000) translate(-2.243975, -2.255601) translate(1.355086, 0.422267)">
+                        <g id="cone">
+                            <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                            <g id="use12" transform="translate(0.888889, 1.833333) scale(-1, 1) translate(-0.888889, -1.833333) ">
+                                <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="use18" transform="translate(2.927905, 2.938844) rotate(144.000000) translate(-2.927905, -2.938844) translate(2.039016, 1.105510)">
+                        <g id="cone">
+                            <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                            <g id="use12" transform="translate(0.888889, 1.833333) scale(-1, 1) translate(-0.888889, -1.833333) ">
+                                <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="use20" transform="translate(2.405429, 2.938844) rotate(-144.000000) translate(-2.405429, -2.938844) translate(1.516540, 1.105510)">
+                        <g id="cone">
+                            <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                            <g id="use12" transform="translate(0.888889, 1.833333) scale(-1, 1) translate(-0.888889, -1.833333) ">
+                                <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="star-link" transform="translate(17.777778, 10.266667)" fill="#0073CF">
+                <g id="star">
+                    <g id="cone" transform="translate(1.777778, 0.000000)">
+                        <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                        <g id="use12" transform="translate(0.888889, 1.833333) scale(-1, 1) translate(-0.888889, -1.833333) ">
+                            <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                        </g>
+                    </g>
+                    <g id="use14" transform="translate(3.089358, 2.255601) rotate(72.000000) translate(-3.089358, -2.255601) translate(2.200470, 0.422267)">
+                        <g id="cone">
+                            <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                            <g id="use12" transform="translate(0.888889, 1.833333) scale(-1, 1) translate(-0.888889, -1.833333) ">
+                                <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="use16" transform="translate(2.243975, 2.255601) rotate(-72.000000) translate(-2.243975, -2.255601) translate(1.355086, 0.422267)">
+                        <g id="cone">
+                            <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                            <g id="use12" transform="translate(0.888889, 1.833333) scale(-1, 1) translate(-0.888889, -1.833333) ">
+                                <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="use18" transform="translate(2.927905, 2.938844) rotate(144.000000) translate(-2.927905, -2.938844) translate(2.039016, 1.105510)">
+                        <g id="cone">
+                            <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                            <g id="use12" transform="translate(0.888889, 1.833333) scale(-1, 1) translate(-0.888889, -1.833333) ">
+                                <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="use20" transform="translate(2.405429, 2.938844) rotate(-144.000000) translate(-2.405429, -2.938844) translate(1.516540, 1.105510)">
+                        <g id="cone">
+                            <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                            <g id="use12" transform="translate(0.888889, 1.833333) scale(-1, 1) translate(-0.888889, -1.833333) ">
+                                <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="star-link" transform="translate(8.888889, 6.600000)" fill="#0073CF">
+                <g id="star">
+                    <g id="cone" transform="translate(1.777778, 0.000000)">
+                        <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                        <g id="use12" transform="translate(0.888889, 1.833333) scale(-1, 1) translate(-0.888889, -1.833333) ">
+                            <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                        </g>
+                    </g>
+                    <g id="use14" transform="translate(3.089358, 2.255601) rotate(72.000000) translate(-3.089358, -2.255601) translate(2.200470, 0.422267)">
+                        <g id="cone">
+                            <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                            <g id="use12" transform="translate(0.888889, 1.833333) scale(-1, 1) translate(-0.888889, -1.833333) ">
+                                <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="use16" transform="translate(2.243975, 2.255601) rotate(-72.000000) translate(-2.243975, -2.255601) translate(1.355086, 0.422267)">
+                        <g id="cone">
+                            <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                            <g id="use12" transform="translate(0.888889, 1.833333) scale(-1, 1) translate(-0.888889, -1.833333) ">
+                                <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="use18" transform="translate(2.927905, 2.938844) rotate(144.000000) translate(-2.927905, -2.938844) translate(2.039016, 1.105510)">
+                        <g id="cone">
+                            <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                            <g id="use12" transform="translate(0.888889, 1.833333) scale(-1, 1) translate(-0.888889, -1.833333) ">
+                                <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="use20" transform="translate(2.405429, 2.938844) rotate(-144.000000) translate(-2.405429, -2.938844) translate(1.516540, 1.105510)">
+                        <g id="cone">
+                            <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                            <g id="use12" transform="translate(0.888889, 1.833333) scale(-1, 1) translate(-0.888889, -1.833333) ">
+                                <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="star-link" transform="translate(8.888889, 10.266667)" fill="#0073CF">
+                <g id="star">
+                    <g id="cone" transform="translate(1.777778, 0.000000)">
+                        <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                        <g id="use12" transform="translate(0.888889, 1.833333) scale(-1, 1) translate(-0.888889, -1.833333) ">
+                            <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                        </g>
+                    </g>
+                    <g id="use14" transform="translate(3.089358, 2.255601) rotate(72.000000) translate(-3.089358, -2.255601) translate(2.200470, 0.422267)">
+                        <g id="cone">
+                            <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                            <g id="use12" transform="translate(0.888889, 1.833333) scale(-1, 1) translate(-0.888889, -1.833333) ">
+                                <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="use16" transform="translate(2.243975, 2.255601) rotate(-72.000000) translate(-2.243975, -2.255601) translate(1.355086, 0.422267)">
+                        <g id="cone">
+                            <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                            <g id="use12" transform="translate(0.888889, 1.833333) scale(-1, 1) translate(-0.888889, -1.833333) ">
+                                <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="use18" transform="translate(2.927905, 2.938844) rotate(144.000000) translate(-2.927905, -2.938844) translate(2.039016, 1.105510)">
+                        <g id="cone">
+                            <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                            <g id="use12" transform="translate(0.888889, 1.833333) scale(-1, 1) translate(-0.888889, -1.833333) ">
+                                <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="use20" transform="translate(2.405429, 2.938844) rotate(-144.000000) translate(-2.405429, -2.938844) translate(1.516540, 1.105510)">
+                        <g id="cone">
+                            <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                            <g id="use12" transform="translate(0.888889, 1.833333) scale(-1, 1) translate(-0.888889, -1.833333) ">
+                                <polygon id="triangle" transform="translate(0.962894, 1.897845) rotate(18.000000) translate(-0.962894, -1.897845) " points="0.683731943 1.27815837 0.781696152 2.46855009 1.24205585 2.5175322"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

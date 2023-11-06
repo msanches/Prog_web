@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="22px" viewBox="0 0 33 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="31.030303" height="22"></rect>
+        <polyline id="path-3" points="0.26446281 0 32.2644628 0 32.2644628 22 0.26446281 22"></polyline>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(0.705234, 0.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <mask id="mask-4" fill="white">
+                <use xlink:href="#path-3"></use>
+            </mask>
+            <use id="Mask" fill="#009B3A" fill-rule="nonzero" xlink:href="#path-3"></use>
+            <polyline id="Path" stroke="#FED100" fill="#000000" fill-rule="nonzero" mask="url(#mask-4)" points="0.0293847567 19.5078125 32.0293848 2.4921875 32.0293848 19.5078125 0.0293847567 2.4921875"></polyline>
+        </g>
+    </g>
+</svg>
