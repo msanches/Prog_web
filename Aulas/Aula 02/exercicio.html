@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Exercicio</title>
+<style>
+    .resultado{
+        border: 1px solid lightgrey;
+        min-height: 30px;
+        width: 200px;
+        margin: 10px 0px;
+        padding: 10px;
+        display: none;
+    }
+</style>
+</head>
+
+<body>
+<br/>
+	<h2>Exercicio</h2>
+	Nota 1: <input type="text" id="nota1" value="" /> <br/>
+	Nota 2: <input type="text" id="nota2" value="" /> <br/>
+	Nota 3: <input type="text" id="nota3" value="" /> <br/>
+    <div class="resultado"></div>
+	<input type="button" id="botao" value="Calcular" /> <br/>
+
+    <script>
+        window.onload = function(){
+            let btn = document.querySelector("#botao");
+            let res = document.querySelector(".resultado");
+            btn.onclick = function (){
+                let n1 = Number(document.querySelector("#nota1").value);
+                let n2 = Number(document.querySelector("#nota2").value);
+                let n3 = Number(document.querySelector("#nota3").value);
+                let media = (n1 + n2 + n3) /3 ;
+                let resultado = ""
+                if(media >= 6)
+                    resultado = "Aprovado";
+                else if(media >= 3)
+                    resultado = "Exame"
+                else
+                    resultado = "Reprovado";
+                res.style.display = "block";
+                //res.innerHTML = "Média = " + media + " <br> " + resultado;
+                res.innerHTML = `Média = ${media} <br> Resultado: ${resultado}`;
+            }
+        }
+    </script>
+</body>
+</html>

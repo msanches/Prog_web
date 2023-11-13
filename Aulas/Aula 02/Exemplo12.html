@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exemplo 12</title>
+    <link rel="stylesheet" href="exemplo12.css">
+</head>
+<body>
+    <div class="conteudo">
+        <h1>Lâmpada mágica</h1>
+        <img id="lampada" src="img/pic_bulboff.gif" /><br>
+        <button onclick="liga()">On</button>
+        <button onclick="desliga()">OFF</button>
+    </div>
+<script>
+    const elem = document.querySelector("#lampada");
+    function liga(){
+        elem.src = "img/pic_bulbon.gif";
+    }
+    function desliga(){
+        elem.src = "img/pic_bulboff.gif";
+    }
+</script>
+</body>
+</html>

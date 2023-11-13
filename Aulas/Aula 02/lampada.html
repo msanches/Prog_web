@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Source+Code+Pro:wght@300&display=swap');
+        .conteudo{
+            font-family: 'Inconsolata', monospace;
+            width: 400px;
+            margin: 0 auto;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="conteudo">
+        <h1>Lâmpada mágica</h1>
+        <img id="lampada" src="img/pic_bulboff.gif" /><br>
+        <button onclick="liga()">On</button>
+        <button onclick="desliga()">OFF</button>
+    </div>
+<script>
+    const elem = document.querySelector("#lampada");
+    function liga(){
+        elem.src = "img/pic_bulbon.gif";
+    }
+    function desliga(){
+        elem.src = "img/pic_bulboff.gif";
+    }
+</script>
+</body>
+</html>

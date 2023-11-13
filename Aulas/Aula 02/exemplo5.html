@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>Exemplo 5</title>
+</head>
+<body>
+    <script>
+        let nota1 = Number(prompt("Digite a primeira nota:"))
+        let nota2 = Number(prompt("Digite a segunda nota:"))
+        let media = (nota1 + nota2) /2;
+        if(media >= 6){
+            document.write(`Parabéns, você foi aprovado com média ${media}`);
+        } else if(media >= 4){
+            document.write(`Você está de recuperação com média ${media}`);
+        } else {
+            document.write(`Você foi reprovado com média ${media}`);
+        }
+    </script>
+</body>
+</html>

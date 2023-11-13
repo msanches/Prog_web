@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Exemplo 11</title>
+	<script>
+		window.addEventListener("load", function(){
+			//let btn = document.getElementById("botao");
+			let btn = document.querySelector("#botao"); //mais atual
+			btn.addEventListener("click", function(){
+				alert("Olá mundo!");
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<h2>Exemplo de evento no DOM II</h2>
+	<input type="button" id="botao" value="Clique aqui">
+</body>
+</html>

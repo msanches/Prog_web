@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Exemplo 14</title>
+</head>
+
+<body>
+<br/>
+	<h2>Exemplo 14 - Soma de valores</h2>
+	Valor 1: <input type="text" id="valora" value="" /> <br/>
+	Valor 2: <input type="text" id="valorb" value="" /> <br/>
+	<input type="button" id="botao" value="Somar" /> <br/>
+
+    <script>
+        window.onload = function(){
+            let btn = document.getElementById("botao");
+            btn.onclick = function (){
+                let txt1 = document.querySelector("#valora").value;
+                let txt2 = document.querySelector("#valorb").value;
+                let va = Number(txt1);
+                let vb = Number(txt2);
+                alert("A soma é " + (va+vb) );
+            }
+        }
+    </script>
+</body>
+</html>
