@@ -11,8 +11,9 @@ body{background-color: aliceblue;}
     border-radius: 10px;
 }
 button{
-    padding: 5px; 
-    width: 90px; 
+    padding: 10px; 
+    width: 120px; 
     font-weight: bolder; 
     margin-top: 10px;
+    border: none;
 }

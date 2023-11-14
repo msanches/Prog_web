@@ -1,13 +1,13 @@
 function mostraDados(){
     let msg = "";
-    msg += "Login: " + document.getElementById("login").value+" | ";
-    msg += "Senha: " + document.getElementById("senha").value;
+    msg += "Login: " + document.querySelector("#login").value +" | ";
+    msg += "Senha: " + document.querySelector("#senha").value;
     alert(msg);
     document.write(msg);
 }
 
 window.onload = function(){
-    document.getElementById("btn").onclick = function(){
+    document.querySelector("#btn").onclick = function(){
         mostraDados();
     }
 }

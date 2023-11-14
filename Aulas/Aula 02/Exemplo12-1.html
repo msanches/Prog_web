@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exemplo 12-1</title>
+    <link rel="stylesheet" href="exemplo12-1.css">
+</head>
+<body>
+    <div class="conteudo">
+        <h1>Lâmpada mágica v2</h1>
+        <img id="lampada" src="img/pic_bulboff.gif" /><br><br>
+        <label class="switch">
+            <input type="checkbox" id="toggle-me" />
+            <span class="slider round"></span>
+        </label>
+    </div>
+<script>
+    const lampada = document.querySelector("#lampada");
+    const checkbox = document.getElementById('toggle-me');
+
+    checkbox.addEventListener("click", () =>{
+        if(checkbox.checked){
+            lampada.src = "img/pic_bulbon.gif";
+            console.log("ligada");
+        }else{
+            lampada.src = "img/pic_bulboff.gif";
+            console.log("desligada");
+        }
+    
+    })
+    
+</script>
+</body>
+</html>

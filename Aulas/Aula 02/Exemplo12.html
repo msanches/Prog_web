@@ -8,17 +8,23 @@
     <div class="conteudo">
         <h1>Lâmpada mágica</h1>
         <img id="lampada" src="img/pic_bulboff.gif" /><br>
-        <button onclick="liga()">On</button>
-        <button onclick="desliga()">OFF</button>
+        <button id="liga">ON</button>
+        <button id="desliga">OFF</button>
     </div>
 <script>
-    const elem = document.querySelector("#lampada");
-    function liga(){
-        elem.src = "img/pic_bulbon.gif";
-    }
-    function desliga(){
-        elem.src = "img/pic_bulboff.gif";
-    }
+    const lampada = document.querySelector("#lampada");
+    const btnLiga = document.querySelector("#liga");
+    const btnDesliga = document.querySelector("#desliga");
+
+    btnLiga.addEventListener("click", () =>{
+        lampada.src = "img/pic_bulbon.gif";
+        console.log("ligada");
+    });
+    
+    btnDesliga.addEventListener("click", () => {
+        lampada.src = "img/pic_bulboff.gif";
+        console.log("desligada");
+    });
 </script>
 </body>
 </html>
