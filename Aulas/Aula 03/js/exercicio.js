@@ -15,6 +15,6 @@ window.onload = function(){
             resultado = "Reprovado";
         res.style.display = "block";
         //res.innerHTML = "Média = " + media + " <br> " + resultado;
-        res.innerHTML = `Média = ${media} <br> Resultado: ${resultado}`;
+        res.innerHTML = `Média = ${media.toFixed(2)} <br> Resultado: ${resultado}`;
     }
 }
