@@ -17,6 +17,7 @@
 * **[To Do List:](https://github.com/msanches/Prog_web/tree/main/ToDoList)** Lista de tarefas
 * **[Aula 01:](https://github.com/msanches/Prog_web/tree/main/Aulas/Aula%2001)** Apresentação | HTML | CSS
 * **[Aula 02:](https://github.com/msanches/Prog_web/tree/main/Aulas/Aula%2002)** JavaScript
+* **[Aula 03:](https://github.com/msanches/Prog_web/tree/main/Aulas/Aula%2003)** JavaScript - Manipulando objetos e API
 
 Professor Marco Antonio
 <!--
