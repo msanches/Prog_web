@@ -1,0 +1,44 @@
+{
+    "medalhas": [
+        {
+            "pos": 1,
+            "nome": "Brasil",
+            "ouro": 10,
+            "prata": 25,
+            "bronze": 10,
+            "total" : 45
+        },
+        {
+            "pos": 2,
+            "nome": "Argentina",
+            "ouro": 5,
+            "prata": 5,
+            "bronze": 20,
+            "total" : 30
+        },
+        {
+            "pos": 3,
+            "nome": "Chile",
+            "ouro": 3,
+            "prata": 3,
+            "bronze": 3,
+            "total" : 9
+        },
+        {
+            "pos": 4,
+            "nome": "Colombia",
+            "ouro": 2,
+            "prata": 2,
+            "bronze": 2,
+            "total" : 6
+        },
+        {
+            "pos": 5,
+            "nome": "Peru",
+            "ouro": 1,
+            "prata": 2,
+            "bronze": 1,
+            "total" : 4
+        }       
+    ]
+}

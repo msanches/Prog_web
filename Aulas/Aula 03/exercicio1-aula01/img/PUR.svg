@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="22px" viewBox="0 0 32 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>PUR</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="32" height="22"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PUR">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+            <g mask="url(#mask-2)" fill-rule="nonzero">
+                <rect id="Rectangle" fill="#ED0000" x="0" y="0" width="32" height="22"></rect>
+                <path d="M0,7.34615385 L32,7.34615385 M0,15.6538462 L32,15.6538462" id="Shape" stroke="#FFFFFF" stroke-width="6" fill="#000000"></path>
+                <polygon id="Path" fill="#0050F0" points="0 0 19 11 0 22"></polygon>
+                <g id="Group" transform="translate(1.000000, 7.000000)" fill="#FFFFFF">
+                    <g id="cone" transform="translate(2.666667, 0.000000)">
+                        <polygon id="triangle" transform="translate(2.610852, 2.279461) rotate(18.000000) translate(-2.610852, -2.279461) " points="1.76613083 0.577745363 1.78572367 3.97137926 3.45557339 3.98117568"></polygon>
+                        <g id="triangle-link" transform="translate(2.166667, 2.500000) scale(-1, 1) translate(-2.166667, -2.500000) translate(0.666667, 0.000000)">
+                            <polygon id="triangle" transform="translate(1.610852, 2.279461) rotate(18.000000) translate(-1.610852, -2.279461) " points="0.766130827 0.577745363 0.785723669 3.97137926 2.45557339 3.98117568"></polygon>
+                        </g>
+                    </g>
+                    <g id="cone-link" transform="translate(6.101666, 3.081259) rotate(72.000000) translate(-6.101666, -3.081259) translate(4.101666, 0.581259)">
+                        <g id="cone" transform="translate(0.000000, -0.000000)">
+                            <polygon id="triangle" transform="translate(2.610852, 2.279461) rotate(18.000000) translate(-2.610852, -2.279461) " points="1.76613083 0.577745363 1.78572367 3.97137926 3.45557339 3.98117568"></polygon>
+                            <g id="triangle-link" transform="translate(2.166667, 2.500000) scale(-1, 1) translate(-2.166667, -2.500000) translate(0.666667, -0.000000)">
+                                <polygon id="triangle" transform="translate(1.610852, 2.279461) rotate(18.000000) translate(-1.610852, -2.279461) " points="0.766130827 0.577745363 0.785723669 3.97137926 2.45557339 3.98117568"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="cone-link" transform="translate(3.692323, 3.715297) rotate(-72.000000) translate(-3.692323, -3.715297) translate(1.692323, 1.215297)">
+                        <g id="cone" transform="translate(-0.000000, 0.000000)">
+                            <polygon id="triangle" transform="translate(2.610852, 2.279461) rotate(18.000000) translate(-2.610852, -2.279461) " points="1.76613083 0.577745363 1.78572367 3.97137926 3.45557339 3.98117568"></polygon>
+                            <g id="triangle-link" transform="translate(2.166667, 2.500000) scale(-1, 1) translate(-2.166667, -2.500000) translate(0.666667, 0.000000)">
+                                <polygon id="triangle" transform="translate(1.610852, 2.279461) rotate(18.000000) translate(-1.610852, -2.279461) " points="0.766130827 0.577745363 0.785723669 3.97137926 2.45557339 3.98117568"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="cone-link" transform="translate(6.014200, 4.655794) rotate(144.000000) translate(-6.014200, -4.655794) translate(4.014200, 2.155794)">
+                        <g id="cone" transform="translate(-0.000000, -0.000000)">
+                            <polygon id="triangle" transform="translate(2.610852, 2.279461) rotate(18.000000) translate(-2.610852, -2.279461) " points="1.76613083 0.577745363 1.78572367 3.97137926 3.45557339 3.98117568"></polygon>
+                            <g id="triangle-link" transform="translate(2.166667, 2.500000) scale(-1, 1) translate(-2.166667, -2.500000) translate(0.666667, -0.000000)">
+                                <polygon id="triangle" transform="translate(1.610852, 2.279461) rotate(18.000000) translate(-1.610852, -2.279461) " points="0.766130827 0.577745363 0.785723669 3.97137926 2.45557339 3.98117568"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="cone-link" transform="translate(4.525144, 5.047651) rotate(-144.000000) translate(-4.525144, -5.047651) translate(2.525144, 2.547651)">
+                        <g id="cone" transform="translate(0.000000, -0.000000)">
+                            <polygon id="triangle" transform="translate(2.610852, 2.279461) rotate(18.000000) translate(-2.610852, -2.279461) " points="1.76613083 0.577745363 1.78572367 3.97137926 3.45557339 3.98117568"></polygon>
+                            <g id="triangle-link" transform="translate(2.166667, 2.500000) scale(-1, 1) translate(-2.166667, -2.500000) translate(0.666667, -0.000000)">
+                                <polygon id="triangle" transform="translate(1.610852, 2.279461) rotate(18.000000) translate(-1.610852, -2.279461) " points="0.766130827 0.577745363 0.785723669 3.97137926 2.45557339 3.98117568"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

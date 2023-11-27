@@ -1,0 +1,8 @@
+.resultado{
+    border: 1px solid lightgrey;
+    min-height: 30px;
+    width: 200px;
+    margin: 10px 0px;
+    padding: 10px;
+    display: none;
+}

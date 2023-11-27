@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+body{
+    font-family: 'Vina Sans', sans-serif;
+    font-size: 30px;
+}
+#lista {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 300px; 
+    border: 1px solid #354a5f;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.item img {
+    width: 80%;
+}
+
+.item p {
+    text-align: center;
+}
